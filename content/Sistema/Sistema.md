@@ -1,0 +1,16 @@
+O sistema engloba todas as mecânicas que ditam como o mundo do RPG [[Infernal Tower 405]] funciona
+# Índice
+- [[Convenções]]
+- [[Ficha]]
+	- [[Nível]]
+	- [[Atributos]]
+	- [[Inventário]]
+	- [[Perícias]]
+		- [[Forjar]]
+	- [[Proficiências]]
+	- [[Habilidades]]
+- [[Testes]]
+	- [[Modificadores]]
+- [[Combate]]
+	- [[Diferença de alcance]]
+	- [[Multiplicador de armas]]
