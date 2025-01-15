@@ -22,7 +22,7 @@ Para que uma pessoa seja considerada verdadeiramente um veterano, mestre ou grã
 ## Experiência de combate
 Sempre que você [[Combate#Final do combate|conclui um combate]] você ganha o equivalente a experiência ganha dividida por 5 nas proficiências usadas no combate
 Adicionalmente, você pode parar após o combate para refletir sobre, duplicando a quantidade de pontos e parando por 5 minutos para cada ponto.
- 
+ ## Treino
 Também é possível passar uma tarde treinando, sendo os pontos baseado em qual seu parceiro de treino:
 
 |Parceiro        |Pontos|

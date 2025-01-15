@@ -10,3 +10,10 @@ Uso:
 	- Adiciona X pontos de experiência ao personagem
 - /xp \<X\> L
 	- Adiciona X níveis ao personagem
+
+# Forjar
+WIP
+## [[SetOficio.lua|SetOficio]]
+## [[ComecarForjarItem.lua|ComeçarForjarItem]]
+## [[enviarImagemForja.lua | EnviarImagemForja]]
+## [[Forjar.lua | Forjar]]
