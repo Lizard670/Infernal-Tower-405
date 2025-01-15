@@ -1,4 +1,2 @@
-# Sistema 
-![[Sistema]]
-# Macros
-![[Macros]]
+# [[Sistema]] 
+# [[Macros]]
