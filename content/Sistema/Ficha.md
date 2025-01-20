@@ -80,4 +80,4 @@ Um campo para que o jogador possa anotar livremente dentro da ficha
 ## Proficiências
 Aba em que ficam salvas as [[Proficiências|proficiências]] do personagem.
 ## Habilidades
-Aba em que ficam salvas as [[Habilidades|habildiades]] do personagem.
+Aba em que ficam salvas as [[Habilidades|habilidades]] do personagem.

@@ -1,4 +1,4 @@
-No momento do jogo, já momentos em que o sucesso ou falha da ação narrada não fica apenas a critério da narração, mas também de algum teste feito com uma rolagem.
+No momento do jogo, há momentos em que o sucesso ou falha da ação narrada não fica apenas a critério da narração, mas também de algum teste feito com uma rolagem.
 Existem 4 principais tipos de testes:
 - [[Testes#Sorte|Sorte]]
 - [[Testes#Acerto|Acerto]]
@@ -6,7 +6,7 @@ Existem 4 principais tipos de testes:
 - Perícia
 
 Em geral os testes são feitos rolando [[Convenções#Dados|1d20]], somando os respectivos [[modificadores]] e caso o resultado seja maior a dificuldade previamente dita pelo mestre, o teste é considerado um sucesso.
-As dificuldades seguem um padrão, sendo a dificuldade padrão 12.
+As dificuldades seguem um padrão, sendo a dificuldade padrão 10.
 
 | Resultado necessário | Tipo da dificuldade |
 | -------------------- | ------------------- |

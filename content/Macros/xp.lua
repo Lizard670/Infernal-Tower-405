@@ -14,8 +14,6 @@ if (jogador:getEditableLine(target) == nil) then
     return 2
 end
 
-
-
 -- VALORES
 local valor = tonumber(arg[1])
 
@@ -33,56 +31,48 @@ end
 
 
 
--- ACTION
-local lineRaw = jogador:getEditableLine(target)
+-- Pega os valores da barrinha
+local linhaBruta = jogador:getEditableLine(target)
 
-if (string.find(lineRaw, "%[%d+/%d+%]") == nil) then
+if (string.find(linhaBruta, "%[%d+/%d+%]") == nil) then
     escrever("Você não possuí xp na barrinha")
     return 3
 end
 
-local bufferInicio, bufferFim = string.find(lineRaw, "%b[/")
-local currentValue = tonumber(string.sub(lineRaw, bufferInicio + 1, bufferFim - 1))
+local bufferInicio, bufferFim = string.find(linhaBruta, "%b[/")
+local xpAtual = tonumber(string.sub(linhaBruta, bufferInicio + 1, bufferFim - 1))
 
-bufferInicio, bufferFim = string.find(lineRaw, "%b/]")
-local level = math.floor(tonumber(string.sub(lineRaw, bufferInicio + 1, bufferFim - 1)) / 100)
+bufferInicio, bufferFim = string.find(linhaBruta, "%b/]")
+local nivelAtual = math.floor(tonumber(string.sub(linhaBruta, bufferInicio + 1, bufferFim - 1)) / 100)
 
-escrever("---------- \nNível inicial:    [§K2]" .. level .. "\n[§K1]xp inicial:    [§K2]" .. currentValue)
+escrever("---------- \nNível inicial:    [§K2]" .. nivelAtual .. "\n[§K1]xp inicial:    [§K2]" .. xpAtual)
 
+-- Cálculo
 if (op == "L") then
-    level = level + valor
+    niveisGanhados = valor
 else
-    currentValue = currentValue + valor
-    local levelsGained = 0
-    if (valor > 0) then
-        while (true) do
-            if (currentValue < (level * 100) or level == 0) then
-                escrever("\nNíveis ganhos: [§K2]" .. levelsGained)
-                break
-            end
-            currentValue = currentValue - level * 100
-            level = level + 1
-            levelsGained = levelsGained + 1
-        end
-    elseif (valor < 0) then
-        while (true) do
-            if (currentValue >= 0 or level == 0) then
-                escrever("\nNíveis perdidos: [§K2]" .. levelsGained)
-                break
-            end
-            level = level - 1
-            currentValue = currentValue + level * 100
-            levelsGained = levelsGained + 1
-        end
-    end
+    local niveisGanhados = math.floor(valor / 10)
+	xpAtual = xpAtual + (valor - (niveisGanhados*10))
+	if (xpAtual >= 10) then
+		xpAtual = xpAtual - 1
+		niveisGanhados = niveisGanhados + 1
+	end
 end
 
+nivelAtual = nivelAtual + niveisGanhados
 
-escrever("\nNível final:    [§K2]" .. level .. "\n[§K1]xp final:    [§K2]" .. currentValue .. "\n[§K1]---------- ")
+-- envia mudanças no chat
+if     (valor > 0) then
+	escrever("\nNíveis ganhos: [§K2]" .. niveisGanhados)
+elseif (valor < 0) then
+	escrever("\nNíveis perdidos: [§K2]" .. niveisGanhados)
+end
+
+escrever("\nNível final:    [§K2]" .. nivelAtual .. "\n[§K1]xp final:    [§K2]" .. xpAtual .. "\n[§K1]---------- ")
 
 -- Coloca na barrinha
-jogador:requestSetEditableLine(target, "Nível " .. level .. ": [" .. currentValue .. "/" .. level * 100 .. "]")
+jogador:requestSetEditableLine(target, "Nível " .. nivelAtual .. ": [" .. xpAtual .. "/" .. 10 .. "]")
 
 -- Coloca na ficha
-sheet.nivelPersonagem = level or sheet.nivelPersonagem or 1
-sheet.xpAtual = currentValue or sheet.xpAtual or 0
+sheet.nivelPersonagem = nivelAtual or sheet.nivelPersonagem or 1
+sheet.xpAtual = xpAtual or sheet.xpAtual or 0

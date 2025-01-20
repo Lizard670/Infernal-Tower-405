@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 Macros são série de comandos que resultam em algo
 Alguns macros são essenciais para o funcionamento padrão da mesa no [[sistema]] criado.
 Os macros abaixo foram progamados em LUA especificamente para o [[Convenções#Firecast|Firecast]]

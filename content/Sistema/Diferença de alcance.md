@@ -1,4 +1,4 @@
-Algo que influencia seu modificador durante o combate é a diferença de alcance entre você e o inimigo. O cálculo é simples, seu alcance - alcance do inimigo.
+Algo que influencia seu modificador durante o combate é a diferença de alcance entre você e o inimigo. O cálculo é simples, seu alcance menos alcance do inimigo.
 
 |Arma       |Alcance|
 |-----------|---|
