@@ -24,7 +24,7 @@ O personagem começa com 80 pontos e a cada [[Nível|nível]] sobe ganha mais 5 
 Na esquerda temos um botão que abre o popup de pontos bônus de atributo além de mostrar o total de pontos bônus.
 Na direita temos o total de pontos distribuídos e o total de pontos possuídos (de nível + bônus).
 ### Equipamentos
-Por padrão o jogador tem 13 slots de equipamento:
+Por padrão o jogador tem 13 slots de equipamento(capazes de [[Convenções#Drag and Drop|drag and drop]]):
 - Chapéu
 - Capacete
 - Peitoral
@@ -35,7 +35,7 @@ Por padrão o jogador tem 13 slots de equipamento:
 - Capuz
 - Colar
 - Anel esquerdo
-- Anal direito
+- Anel direito
 - Mochila/costas
 - Manoplas
 
@@ -47,6 +47,7 @@ Quando o jogador clica em um desses slots, ele é selecionado, mostrando:
 ### Inventário
 A área de inventário se assemelha muito a área de equipamento, porém não existe organização por tipo e sim por número de ordem.
 O inventário contém uma lista de todos os itens possuídos ordenados de cima pra baixo, sendo contendo item da lista as seguintes informações da esquerda para direita:
+- Ícone de [[Convenções#Drag and Drop|drag and drop]]
 - Número de ordem
 - Quantidade
 - Nome
@@ -56,6 +57,7 @@ Quando o jogador clica em um dos itens os detalhes dele são apresentados, mostr
 - Nome do item
 - Descrição detalhada do item
 - Resumo do item
+Além disso, vale ressaltar que o inventário também é capaz de 
 ## História
 A aba de história contém os elementos mais relacionados com a interpretação daquele personagem do que com mecânicas de jogo.
 Ela é dividida em duas partes

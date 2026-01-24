@@ -20,8 +20,9 @@ DM = dificuldade de masterizar
 
 Para que uma pessoa seja considerada verdadeiramente um veterano, mestre ou grão mestre com determinada arma, ela deve ser capaz de usar [[Habilidades#Habilidades de aura|aura]].
 ## Experiência de combate
-Sempre que você [[Combate#Final do combate|conclui um combate]] você ganha o equivalente a experiência ganha dividida por 5 nas proficiências usadas no combate
+Sempre que você [[Combate#Final do combate|conclui um combate]] você ganha o equivalente a experiência ganha dividida por 5 e arredondado para cima na proficiência usada no combate.
 Adicionalmente, você pode parar após o combate para refletir sobre, duplicando a quantidade de pontos e parando por 5 minutos para cada ponto.
+Em caso de mais de uma proficiência ter sido utilizada no combate, o jogador pode escolher entre dividir os pontos(depois da reflexão) igualmente e arredondado pra cima, ou alocar apenas na proficiência mais usada no combate.
  ## Treino
 Também é possível passar uma tarde treinando, sendo os pontos baseado em qual seu parceiro de treino:
 
@@ -34,23 +35,23 @@ Também é possível passar uma tarde treinando, sendo os pontos baseado em qual
 
 ## Dificuldade de cada tipo de arma
 
-|DA-DM|Tipo de arma           |
-|-----|-----------------------|
-|1 - 1|Adagas e espadas curtas|
-|2 - 2|Clavas e maças         |
-|2 - 2|Espadas longas         |
-|1 - 2|Espadas medias         |
-|3 - 2|Espadas pesadas        |
-|3 - 4|Estrelas d'alva        |
-|3 - 3|Foices                 |
-|3 - 2|Foices curtas          |
-|2 - 3|Lanças e tridentes     |
-|2 - 3|Machadinhas            |
-|2 - 2|Machados               |
-|2 - 3|Machados de batalha    |
-|3 - 2|Machadão               |
-|1 - 2|Manoplas               |
-|2 - 3|Marretas               |
-|2 - 3|Martelos de batalha    |
-|3 - 3|Martelos de guerra     |
-|4 - 4|Rapieiras              |
+|DA|DM|Tipo de arma           |
+|--|--|-----------------------|
+|1 | 1|Adagas e espadas curtas|
+|2 | 2|Clavas e maças         |
+|2 | 2|Espadas longas         |
+|1 | 2|Espadas medias         |
+|3 | 2|Espadas pesadas        |
+|3 | 4|Estrelas d'alva        |
+|3 | 3|Foices                 |
+|3 | 2|Foices curtas          |
+|2 | 3|Lanças e tridentes     |
+|2 | 3|Machadinhas            |
+|2 | 2|Machados               |
+|2 | 3|Machados de batalha    |
+|3 | 2|Machadão               |
+|1 | 2|Manoplas/desarmado     |
+|2 | 3|Marretas               |
+|2 | 3|Martelos de batalha    |
+|3 | 3|Martelos de guerra     |
+|4 | 4|Rapieiras              |

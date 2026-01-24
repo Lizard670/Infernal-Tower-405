@@ -7,15 +7,14 @@ Caso um dos combatentes tenha sido pego de surpresa, terá chance de revidar ins
 
 Caso dois ou mais combatentes tenham empatado na ordem, aquele com mais destreza age primeiro, e em caso ambos tenham a mesma quantidade, rolam novos dados de iniciativa até que ocorra um desempate. Alternativamente ambas as partes podem chegar a um acordo verbal de quem irá atacar primeiro.
 # Turno
-Durante cada turno um combatente comum pode fazer uma(1) ação de ataque e três(3) ações extras.
+Durante cada turno um combatente comum pode fazer uma(1) ação principal e três(3) ações simples.
 Sendo que comumente chefões possuem ações extras ou inteiramente não trabalham nesse esquema.
-## Ação extra
+## Ação simples
 São ações curtas feitas antes ou depois do ataque.
 
-|Ações extras comuns                           |
+|Ações simples comuns                           |
 |----------------------------------------------|
 |Pegar ou guardar um item no inventário        |
-|Carregar uma besta                            |
 |Equipar um item                               |
 |Jogar um item                                 |
 |Usar um item simples(como beber uma poção)    |
@@ -23,9 +22,8 @@ São ações curtas feitas antes ou depois do ataque.
 |Pegar ou colocar algo no cenário              |
 |Interação simples no cenário(Como abrir porta)|
 
-## Ação de Ataque
-Consiste não só dos ataques simples mas também de [[Habilidades|habilidades]].
-Pode ser trocado por 3 ações extras.
+## Ação principal
+Consiste das ações mais complexas e/ou que exigem mais tempo, como um ataque normal ou usar uma [[Habilidades|habilidade]].
 ### Rolagem de acerto
 ![[Testes#Acerto]]
 ### Rolagem de dano

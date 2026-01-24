@@ -19,7 +19,7 @@ As dificuldades seguem um padrão, sendo a dificuldade padrão 10.
 | 30                   | Heroica             |
 | 40                   | Quase impossível    |
 
-Sendo que um 20 natural concede +5 de modificador e uma rolagem natural abaixo de 4 é um erro crítico independente do resultado com modificadores.
+Sendo que um 20 natural concede +5 de modificador e uma rolagem natural de 1 é um erro crítico independente do resultado com modificadores.
 
 # Sorte
 As rolagens de sorte dificilmente vão ter modificadores, sendo normalmente apenas 1d20 puro.

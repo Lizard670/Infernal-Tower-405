@@ -1,4 +1,5 @@
 Algo que influencia seu modificador durante o combate é a diferença de alcance entre você e o inimigo. O cálculo é simples, seu alcance menos alcance do inimigo.
+> Lembrete, esse modificador só se aplica para caso ambos estejam em uma distância próxima, caso seja um ataque de longa distância, não há modificador de alcance
 
 |Arma       |Alcance|
 |-----------|---|

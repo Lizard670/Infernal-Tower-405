@@ -17,10 +17,3 @@ A maior parte dos seres humanos possuem duas mãos, e é uma boa ideia usar amba
 |Ap   |Arma pesada|
 |S    |Suporte    |
 Suporte inclui escudos, bestas e outros.
-
-Caso o personagem seja ambidestro, em casos onde se teria um ônus por usar duas armas, pode-se somar +5% ao ônus. Exemplos:
-
-|Combinação|Normal       |Ambidestro   |
-|----------|-------------|-------------|
-|Ap + Al   |-10% na Al   |-5% na Al    |
-|Am + Am   |-50% em ambas|-45% em ambas|

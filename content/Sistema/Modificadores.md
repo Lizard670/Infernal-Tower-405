@@ -38,7 +38,7 @@ M = modificador da perícia
 
 Observação: algumas perícias podem ser roladas usando mais de um atributo, e por isso constam em mais de uma lista
 ## Nível zero de perícia
-Caso o nível da perícia seja 0, a forma a prosseguir depende do tipo da perícia
+Caso o nível da perícia seja 0, a forma a prosseguir depende do [[Perícias#Tipos|tipo]] da perícia
  
 | Tipo      |                                       |
 | --------- | ------------------------------------- |

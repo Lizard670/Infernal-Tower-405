@@ -1,7 +1,25 @@
 São conhecimentos em áreas específicas(as vezes específicas até demais), não é esperado que o personagem tenha conhecimento em todas, podendo algumas até serem substituídas dependendo do contexto.
 
-Para saber mais sobre como usar as perícias veja: [[Testes]]
+O aumento de nível de uma perícia segue os mesmos requisitos de [[Nível | nível]], ou seja, 10 pontos para avançar de um nível para outro. Sendo os pontos dependentes do quão impactante foi o acontecimento para o aprendizado naquela área:
+
+|   Impacto    | XP ganho |
+|--------------|----------|
+|Cotidiano     |00¹       |
+|Pequeno       |01        |
+|Médio         |03        |
+|Alto          |07        |
+|Muito alto    |10        |
+|Revolucionário|25        |
+[1] - É menor que 1 para uma atividade, porém ao longo de diversas repetições pode gerar pontos de experiência, é também o impacto mais comum para aprendizados de longa duração.
+
+Para saber mais sobre como usar as perícias veja também: [[Testes]]
 # Tipos
+Existem 3 tipos de perícias
+- [[Perícias#Intuitivas | intuitivas]]
+- [[Perícias#Mistas | mistas]]
+- [[Perícias#Teóricas | teóricas]]
+
+A diferença está atrelada as diferentes formas de aprendizado e quanto o básico dela é conhecido por qualquer pessoa.
 ## Intuitivas
 ![[Icone perícia intuitiva.png | center | 100]]
 São perícias intuitivas ou aprendidas na prática, sendo o básico delas conhecidos por todos.
@@ -44,7 +62,7 @@ Consistem em perícias que misturam o estudo prático com o teórico. Mesmo todo
 |Jogatina              |CAR, DES e INT ||
 |Mergulho              |DES            ||
 |Negociar              |CAR            ||
-|Ofício                |INT            |Trata da criação manual de coisas <br> Usado também para [[Forjar]]  |
+|Ofício                |INT            |Trata da criação manual de coisas <br>Como para [[Forjar]]  |
 |Pilotagem             |DES            ||
 |Pintura e desenho     |INT            ||
 |Rastrear              |INT            ||
